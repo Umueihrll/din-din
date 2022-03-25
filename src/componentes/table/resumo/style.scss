@@ -1,0 +1,73 @@
+.extrato {
+    position: fixed;
+    right: 110px;
+    .container-resume {
+      display: flex;
+      flex-direction: column;
+      width: 245px;
+      height: 232px;
+      background: #FAFAFA;
+      border-radius: 11px;
+      box-shadow: 1px 1px 18px #afafaf;
+      justify-content: space-around;
+      align-content: flex-start;
+      padding: 16PX;
+      font-family: 'rubik';
+      margin-top: 111px;
+      h4 {
+        font-size: 18px;
+        margin-left: 5px;
+      }    
+      p {
+        font-size: 13px;
+        margin-left: 5px;
+      }
+      span {
+        font-size:13px;
+      }
+      .in {
+        display: flex;
+        justify-content: space-between;
+        span {
+          color: #645FFB;
+        }
+      }
+      .out {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #EAEAEA;
+        padding-bottom: 25px;
+        margin-bottom: 10px;
+        span {
+          color: #FA8C10;
+        }
+      }
+      .balance {
+        display: flex;
+        justify-content: space-between;
+        span {
+          color: #3A9FF1;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+      .btn-add {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 213px;
+        height: 33px;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFF;
+        background: linear-gradient(90deg, #FA8C10, #FF57D3);
+        border-radius: 3px;
+        cursor: pointer;
+      
+      }
+    }
+  }

@@ -1,0 +1,114 @@
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.692);
+    button {
+      all:unset;
+      cursor: pointer;
+    }
+    .modal-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 611px;
+      height: 879px;
+      background-color: #FAFAFA;
+      align-items: stretch;
+      align-content: space-between;
+      border-radius: 10px;
+      margin: 25px 0px;
+      input {
+        height: 60px;
+        padding-left: 15px;
+        border-radius: 10px;
+      }
+      label {
+        font-weight: 700;
+        color: #484848;
+        margin-bottom: 3px
+      }
+      .head{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+      }
+      .operacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .entrada {
+          background: linear-gradient(90deg, #05EDE3, #3A9FF1);
+          border-radius: 10px 0 0 10px;
+        }
+        .saida {
+          background: linear-gradient(90deg, #FA8C10, #FF576B
+          );
+          border-radius: 0 10px 10px 0;
+        }
+        .nope {
+          background: #B9B9B9;
+        }
+        
+        button{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 245px;
+          height: 60px;
+          font-weight: 700;
+          font-size: 14px;
+          color:#FFF
+        }
+      }
+      .valor {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 60px;
+        margin-bottom: 10px;
+      }
+      .categoria {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 60px;
+        margin-bottom: 10px;
+      }
+      .data {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 60px;
+        margin-bottom: 10px;
+      }
+      .descricao {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 60px;
+        margin-bottom: 10px;
+      }
+      .btn-insert {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 236px;
+        height: 42px;
+        background-color: #645FFB;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 14px;
+        margin-left:182px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+      }
+    }
+    
+  }
